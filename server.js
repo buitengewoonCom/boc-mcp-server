@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const PABBLY_WEBHOOK = "HIER_JOUW_PABBLY_WEBHOOK";
+const PABBLY_WEBHOOK = "https://connect.pabbly.com/webhook-listener/webhook/IjU3NjYwNTY4MDYzMTA0MzM1MjZiNTUzNiI_3D_pc/IjU3NjcwNTZlMDYzMzA0MzI1MjY4NTUzMjUxMzUi_pc";
 
 const server = new McpServer({
   name: "BOC OPS Connector",
